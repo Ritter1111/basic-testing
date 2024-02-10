@@ -36,7 +36,7 @@ describe('simpleCalculator tests', () => {
     expect(result).toBeNull();
   });
 
-  test('should return null for invalid arguments', () => {
+  test('should return null for invalid action', () => {
     const result = simpleCalculator({ a: 'a2', b: 3, action: Action.Multiply });
     expect(result).toBeNull();
   });
